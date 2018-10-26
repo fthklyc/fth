@@ -18,8 +18,7 @@ while True:
 
         break
 
-with open("C:/Users/Fatih/Desktop/dizisiralama2.txt","a") as dosya:
+with open("C:/Users/Kullanici/Desktop/dizisiralama.txt","a") as dosya:
     for d in y:
-        #dosya.write("***")
-        #dosya.write("\n")
+        
         dosya.write('{}\n'.format(str(d)))
